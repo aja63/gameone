@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           /* $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 65) {
+                    $("div").animate({left: '-=7'});}});
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 68) {
+                    $("div").animate({left: '+=7'});}});
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 87) {
+                    $("div").animate({top: '-=7'});}});
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 83) {
+                    $("div").animate({top: '+=7'});}});
+            $("body").keypress(function(keyPressed){
+                if (keyPressed.keyCode == 65) {
+                    $("div").animate({left: '-=2'});}});
+            $("body").keypress(function(keyPressed){
+                if (keyPressed.keyCode == 68) {
+                    $("div").animate({left: '+=2'});}});
+            $("body").keypress(function(keyPressed){
+                if (keyPressed.keyCode == 87) {
+                    $("div").animate({top: '-=2'});}});
+            $("body").keypress(function(keyPressed){
+                if (keyPressed.keyCode == 83) {
+                    $("div").animate({top: '+=2'});}});
+
+*/
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 83) {
+                    $("div").animate({top:'100%'});}});
+            $("body").keyup(function(keyPressed){
+                if (keyPressed.keyCode == 83) {
+                    $("div").stop();}});
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 87) {
+                    $("div").animate({top:'0'});}});
+            $("body").keyup(function(keyPressed){
+                if (keyPressed.keyCode == 87) {
+                    $("div").stop();}});
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 68) {
+                    $("div").animate({left:'100%'});}});
+            $("body").keyup(function(keyPressed){
+                if (keyPressed.keyCode == 68) {
+                    $("div").stop();}});
+            $("body").keydown(function(keyPressed){
+                if (keyPressed.keyCode == 65) {
+                    $("div").animate({left:'0%'});}});
+            $("body").keyup(function(keyPressed){
+                if (keyPressed.keyCode == 65) {
+                    $("div").stop();}});
+
+
+
+        });
+    </script>
+</head>
+<body>
+<div id="box1" class="boxmaker"> hello </div>
+
+
+
+</body>
+</html>
